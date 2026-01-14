@@ -1,0 +1,103 @@
+body {
+  max-height: fit-content;
+  background: #f7a3ec;
+  background: linear-gradient(
+    115deg,
+    rgba(255, 192, 203, 1) 50%,
+    rgb(253, 55, 88, 0.7) 100%
+  );
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  position: sticky;
+  top: 0px;
+  width: 101vw;
+  height: 60px;
+  background-color: hotpink;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.headtexd {
+  font-family: cursive;
+  margin-left: 50px;
+}
+.titlelink {
+  margin-right: 50px;
+  display: flex;
+  gap: 30px;
+}
+.dad {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  gap: 10px;
+}
+.child {
+  height: 220px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.child img {
+  max-height: 80px;
+  max-width: 100px;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.text {
+  text-align: center;
+}
+.text h5 {
+  height: 0px;
+}
+.text p {
+  height: 0px;
+  font-size: small;
+}
+.text button {
+  width: 70px;
+  margin-top: 5px;
+  background-color: #f7a3ec;
+  border: 1px solid #ffbbf6;
+  border-radius: 5px;
+  padding: 5px;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.text button:active {
+  background-image: url(/hicheel/car/wideBoink-4x.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.child:first-child {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.child:nth-child(2) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.child:last-child {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}

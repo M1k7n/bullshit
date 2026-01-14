@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #080808;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  position: sticky;
+  top: 0px;
+  width: 101vw;
+  height: 60px;
+  background-color: whitesmoke;
+  color: #080808;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-small;
+}
+a {
+  text-decoration: none;
+  color: #080808;
+}
+.headtexd {
+  font-family: cursive;
+  margin-left: 50px;
+}
+.titlelink {
+  margin-right: 50px;
+  display: flex;
+  gap: 30px;
+}
+.dext {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.texts {
+  width: 40vw;
+  height: fit-content;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
